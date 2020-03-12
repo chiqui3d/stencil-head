@@ -1,0 +1,45 @@
+{
+  "name": "stencil-head",
+  "version": "1.1.0",
+  "description": "Head component for Stencil and Web Components",
+  "homepage": "https://github.com/chiqui3d/stencil-head",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiqui3d/stencil-head.git"
+  },
+  "keywords": [
+    "Stencil",
+    "StencilJS",
+    "Stencil head",
+    "Stencil meta tags",
+    "Stencil head component",
+    "Head web component",
+    "Meta tags component",
+    "Seo component"
+  ],
+  "author": "chiqui3d",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/stencil-head/stencil-head.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "build-prod": "stencil build --prod --log",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
+  "devDependencies": {
+    "@stencil/core": "^1.9.1"
+  },
+  "license": "MIT"
+}
